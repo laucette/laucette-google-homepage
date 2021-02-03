@@ -1,0 +1,134 @@
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; 
+}
+
+html {
+    height: 100vh;
+}
+
+.container {
+    float: right;
+    margin-top: 13px;
+    margin-right: 5px;
+    padding-left: 60%;
+}
+
+.navbar a  {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    margin: 7px;
+    font-size: 14px;
+   
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .nav-button {
+    background: rgb(66, 120, 235);
+    color: #fff;
+    padding: 8px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar i {
+    height: 25px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    /* padding: 10rem; */
+
+}
+
+.logo {
+   margin: auto;
+   width: 50%;
+   height: 109px; 
+   padding-bottom: 10px;
+}
+
+img {
+    padding-top: 0;
+    margin-left: 260px;
+    background: transparent;
+    height: 40px;
+    width: 35px;
+}
+.s-input {
+    display: flex;
+    padding-top: 13px;
+}
+
+input {
+    margin: 0;
+    width: 49%;
+    height: 35px;
+    width: 450px;
+    border-radius: 30px;
+    border: 1px solid grey;
+}
+
+
+.s-input button {
+    width: 55px;
+    background: rgb(62, 102, 235);
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.yu {
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    margin-left: 400px;
+    margin-bottom: 10rem;
+}
+.yu a {
+    display: inline-block;
+    text-decoration: none;
+    background: 1px lightgrey;
+    padding: 10px 15px;
+    color: #333;
+    margin: 7px;
+    font-size: 14px;
+}
+
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 14px;
+}
